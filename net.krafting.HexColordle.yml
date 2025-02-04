@@ -21,6 +21,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/hexcolordle-gtk
-        commit: 229833ff96f372cd106bcba533a877aba163a9d2
-        tag: 1.0.3
+        commit: c28ab30986aa5011010edef5df612b8c13e22124
+        tag: 1.1.0
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
