@@ -1,6 +1,6 @@
 app-id: net.krafting.HexColordle
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: HexColordle.py
 finish-args:
@@ -21,6 +21,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/hexcolordle-gtk
-        commit: c28ab30986aa5011010edef5df612b8c13e22124
-        tag: 1.1.0
+        commit: e8850ffe8a1d0632730e887ae2285dfde0f32236
+        tag: 1.2.1
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
