@@ -17,7 +17,7 @@ modules:
       - cp -r utils/ /app/bin/utils/
       - install -Dm 0644 net.krafting.HexColordle.desktop  /app/share/applications/net.krafting.HexColordle.desktop
       - install -Dm 0644 net.krafting.HexColordle.metainfo.xml  /app/share/metainfo/net.krafting.HexColordle.appdata.xml
-      - install -Dm 0644 images/net.krafting.HexColordle.png /app/share/icons/hicolor/512x512/apps/net.krafting.HexColordle.png
+      - install -Dm 0644 images/net.krafting.HexColordle.svg /app/share/icons/hicolor/scalable/apps/net.krafting.HexColordle.svg
     sources:
       - type: git
         url: https://gitlab.com/Krafting/hexcolordle-gtk
